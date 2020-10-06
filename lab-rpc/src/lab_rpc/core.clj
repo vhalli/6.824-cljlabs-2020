@@ -13,6 +13,7 @@
     (number? x) (.toByteArray (biginteger x))
     (string? x) (map byte x)
     (map? x)    (->bytes (pr-str x))
+    (vector? x) (->bytes (pr-str x))
     :else       (throw (Exception. (format "Attempting to cast invalid type %s to bytes" (type x))))))
 
 (defrecord ReqMsg [end-name svc-meth args reply-ch])
