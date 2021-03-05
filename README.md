@@ -1,5 +1,5 @@
 # Intro
-This test in this repo have been forked from https://github.com/siclait/6.824-cljlabs-2020
+The tests in this repo have been forked from https://github.com/siclait/6.824-cljlabs-2020
 Solutions to the problems have been added by me.
 
 # 6.824-cljlabs-2020
